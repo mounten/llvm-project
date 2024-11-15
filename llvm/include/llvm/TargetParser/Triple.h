@@ -270,6 +270,7 @@ public:
     MuslSF,
     MuslX32,
     LLVM,
+    QNX,
 
     MSVC,
     Itanium,
