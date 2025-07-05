@@ -239,7 +239,8 @@ public:
     LiteOS,
     Serenity,
     Vulkan, // Vulkan SPIR-V
-    LastOSType = Vulkan
+    NTO,
+    LastOSType = NTO,
   };
   enum EnvironmentType {
     UnknownEnvironment,
@@ -270,7 +271,6 @@ public:
     MuslSF,
     MuslX32,
     LLVM,
-
     MSVC,
     Itanium,
     Cygnus,
@@ -301,8 +301,9 @@ public:
     OpenHOS,
 
     PAuthTest,
+    QNX,
 
-    LastEnvironmentType = PAuthTest
+    LastEnvironmentType = QNX
   };
   enum ObjectFormatType {
     UnknownObjectFormat,
